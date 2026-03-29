@@ -1,0 +1,54 @@
+{
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Edmond",
+    "title": "Backend Engineer.",
+    "description": "I build maintainable and scalable backend systems, as well as secure microservices, integrating AI agents, always with a smile.",
+    "primaryActionText": "View My Experience",
+    "primaryActionLink": "/experience",
+    "secondaryActionText": "Get In Touch",
+    "secondaryActionLink": "/contact",
+    "avatar": "/profile_picture.jpg"
+  },
+  "about": {
+    "title": "About Me",
+    "paragraphs": [
+      "As a passionate Backend Engineer, I thrive on solving complex architectural problems and optimizing system performance. My journey in software engineering has been driven by a curiosity about how things work under the hood and a dedication to writing clean, maintainable code.",
+      "I have experience with international enterprise applications, where reliability and scalability are essential. Whether it's designing REST and/or GraphQL API systems, optimizing database queries, or implementing robust CI/CD pipelines, I take a holistic approach to backend development."
+    ]
+  },
+  "stats": [
+    {
+      "value": "3+",
+      "label": "Years Experience"
+    },
+    {
+      "value": "5+",
+      "label": "Enterprise Projects"
+    },
+    {
+      "value": "100%",
+      "label": "Commitment"
+    },
+    {
+      "value": "4000+",
+      "label": "Hours of Code"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Armel Fotsoh Ph.D",
+      "role": "AI Tech Builder",
+      "text": "I worked with Edmond on various Python-related projects. He has solid skills in FastAPI, Django, and everything related to asynchronous programming. Furthermore, he possesses strong knowledge in software engineering and IT system design. On a personal level, he is hardworking, calm, and rigorous.",
+      "avatar": "https://media.licdn.com/dms/image/v2/C5603AQH30XKGQrceIw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1631642858446?e=1776297600&v=beta&t=7qSjgsUM9AlZ25clBW5-MmD5Z7yP7cwH1AwyWdFQGQM"
+    },
+    {
+      "id": 2,
+      "name": "Joel Guiffou",
+      "role": "Founder of Coding Industry",
+      "text": "I greatly enjoy working with Edmond on a daily basis. Beyond being a competent developer, he is a kind and committed person in everything he does; he truly puts his heart into his work. He is also a mentor who is present for his juniors, motivated to share and pass on his knowledge. My wish is that our teamwork never ends. I highly recommend him.",
+      "avatar": "https://media.licdn.com/dms/image/v2/D4D03AQHOeqhJQao6Sw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1710486865218?e=1776297600&v=beta&t=sAZMrQlPBQiINUh0I5muXxIMboMpDH1gabE-gEY_vmU"
+    }
+  ]
+}

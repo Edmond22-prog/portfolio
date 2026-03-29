@@ -1,0 +1,183 @@
+{
+  "pageTitle": "Skills & Projects",
+  "pageSubtitle": "The technical foundation behind the systems I build.",
+  "categories": [
+    {
+      "title": "Backend & Orchestration",
+      "iconName": "Server",
+      "skills": [
+        "Python",
+        "Django & Rest Framework",
+        "FastAPI",
+        "GraphQL",
+        "Docker",
+        "Websockets",
+        "Celery",
+        "ReAct Agents"
+      ]
+    },
+    {
+      "title": "Databases & Caching",
+      "iconName": "Database",
+      "skills": [
+        "PostgreSQL",
+        "MongoDB",
+        "Redis",
+        "Elasticsearch",
+        "Firebase"
+      ]
+    },
+    {
+      "title": "Cloud Infrastructure",
+      "iconName": "Cloud",
+      "skills": [
+        "Google Cloud",
+        "CI/CD Pipelines",
+        "Nginx"
+      ]
+    }
+  ],
+  "architectureSectionData": {
+    "title": "Projects",
+    "description": "Due to the proprietary nature of enterprise work, source code is private. However, here are some complex systems I've worked on. Filter by technology or company.",
+    "projects": [
+      {
+        "id": "nexus",
+        "title": "Nexus",
+        "company": "Sweez",
+        "type": "SaaS Platform",
+        "description": "Automatic meeting recording and transcription tool, with the ability to chat with an agent about the transcript.",
+        "detailedDescription": "Within a monolithic architecture, I developed GraphQL APIs to index and retrieve data in Elasticsearch. I also implemented background tasks for ingesting recorded meetings and integrated AI functionalities to improve content understanding and extract key information from user responses during agent chats.",
+        "tags": [
+          "Python",
+          "Django",
+          "GraphQL",
+          "FastAPI",
+          "PostgreSQL",
+          "Redis",
+          "Celery",
+          "OpenAI",
+          "Elasticsearch",
+          "Websockets"
+        ]
+      },
+      {
+        "id": "kumbu",
+        "title": "Kumbu",
+        "company": "Bubo",
+        "type": "SaaS Platform",
+        "link": "https://www.kumbu.ai",
+        "description": "Tool for archiving and managing documents, with advanced AI-based search functionality and instant chat to find information in an instant.",
+        "detailedDescription": "This project had a microservices architecture with seven services communicating with each other based on the functionality they called. I was responsible for the implementation, maintenance, and deployment of each service's features.\nIn addition to the services, there were also two internal packages installed in different environments that also needed maintenance and updates.\nI implemented the chat functionality, integrating a reasoning agent that used our services to provide appropriate responses to users.",
+        "tags": [
+          "Microservices",
+          "Python",
+          "Django",
+          "GraphQL",
+          "Rest Framework",
+          "FastAPI",
+          "PostgreSQL",
+          "MongoDB",
+          "ReAct Agents",
+          "Elasticsearch",
+          "Websockets",
+          "Celery",
+          "Redis",
+          "Docker",
+          "Google Cloud",
+          "CI/CD Pipelines"
+        ]
+      },
+      {
+        "id": "daily-menu",
+        "title": "Daily Menu",
+        "company": "Coding Industry",
+        "type": "Web Application",
+        "link": "https://app.menu-daily.com",
+        "description": "Web application for managing daily restaurant menus. This application generates a QR code to scan a restaurant's daily menu.",
+        "detailedDescription": "In charge of implementing the application's backend using a monolithic architecture. I implemented the concept of clean architecture in a customized and straightforward way.",
+        "tags": [
+          "Python",
+          "Django",
+          "Rest Framework",
+          "PostgreSQL",
+          "Docker",
+          "Nginx",
+          "CI/CD Pipelines"
+        ]
+      },
+      {
+        "id": "yttc",
+        "title": "Yaounde Tennis Table Club",
+        "company": "Coding Industry",
+        "type": "Website",
+        "link": "https://yaounde-table-tennis.com",
+        "description": "Official website of the Yaoundé table tennis club. Allows you to view the different tournaments, matches and club members.",
+        "detailedDescription": "Responsible for the complete implementation and deployment of the website. This is a simple Django application, using Django templates and HTMLX.",
+        "tags": [
+          "Python",
+          "Django",
+          "PostgreSQL",
+          "Nginx",
+          "CI/CD Pipelines"
+        ]
+      },
+      {
+        "id": "easy-immo",
+        "title": "Easy Immo",
+        "company": "Coding Industry",
+        "type": "Web Application",
+        "link": "https://easy-immo.coding-industry.com/",
+        "description": "A web application for managing a property owner's real estate portfolio. It allows each owner to have an overview of the operation of their properties and to assign caretakers.",
+        "detailedDescription": "In charge of implementing the application's backend using a monolithic architecture. I implemented the concept of clean architecture in a customized and straightforward way.",
+        "tags": [
+          "Python",
+          "Django",
+          "Rest Framework",
+          "PostgreSQL",
+          "Docker",
+          "Nginx",
+          "CI/CD Pipelines"
+        ]
+      },
+      {
+        "id": "younzee-app",
+        "title": "Younzee App",
+        "company": "Younzee",
+        "type": "Mobile Application",
+        "link": "https://www.younzee.com/en/home-page",
+        "description": "Mobile app giving you the ability to have a personal virtual stylist, created from a digital twin.",
+        "detailedDescription": "Responsible for the new implementation, maintenance and deployment of the DEV and PROD environments of the API communicating with the mobile app.",
+        "tags": [
+          "Python",
+          "Django",
+          "Rest Framework",
+          "PostgreSQL",
+          "Docker",
+          "Google Cloud",
+          "CI/CD Pipelines"
+        ]
+      },
+      {
+        "id": "mirror",
+        "title": "Mirror",
+        "company": "Younzee",
+        "type": "SaaS Platform",
+        "link": "https://mirror.younzee.com",
+        "description": "AI that Boost your conversions and eliminate returns through size recommendations, virtual try-on, and Digital Twins.",
+        "detailedDescription": "The product is a microservice. I was responsible for the implementation, maintenance, deployment, and communication of the various services. These services are combinations of Django and FastAPI applications. I also occasionally worked on the frontend to integrate my APIs.",
+        "tags": [
+          "Microservices",
+          "Python",
+          "Django",
+          "Rest Framework",
+          "FastAPI",
+          "PostgreSQL",
+          "Docker",
+          "Google Cloud",
+          "CI/CD Pipelines"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "pageTitle": "Professional Experience",
+  "pageSubtitle": "My journey turning complex problems into scalable solutions.",
+  "items": [
+    {
+      "id": 1,
+      "role": "Backend Engineer",
+      "company": "Younzee",
+      "companyLink": "https://www.younzee.com/en/home-page",
+      "logoUrl": "https://media.licdn.com/dms/image/v2/C560BAQFnIEhZ4Gdmeg/company-logo_200_200/company-logo_200_200/0/1641929832724?e=2147483647&v=beta&t=uOSlWEiT9Z8aYgEC9sRCbRdaKGsMgdBu9SjSiMLRtjM",
+      "location": "Paris, France",
+      "workMode": "Remote",
+      "contractType": "Freelance",
+      "period": "Nov 2025 - Present",
+      "description": "Responsible for the design, implementation and deployment of the back-end logic of various services.",
+      "highlights": [
+        "Developed and deployed backend systems using Django & FastAPI on Google Cloud Run.",
+        "Use AI aided coding to speed up developer process (Vibecoding).",
+        "Collaborated with cross-functional teams to deliver high-quality software."
+      ]
+    },
+    {
+      "id": 2,
+      "role": "Backend Engineer",
+      "company": "Coding Industry",
+      "companyLink": "https://linkedin.com/company/coding-industry",
+      "logoUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQEBVruEDsPP4Q/company-logo_200_200/company-logo_200_200/0/1710234744883/coding_industry_logo?e=2147483647&v=beta&t=IF3iY49X-0QciZimRB5ggoOTlG73NZHY5gvTdp1Rl2o",
+      "location": "Yaoundé, Cameroon",
+      "workMode": "Hybrid",
+      "contractType": "Part-time",
+      "period": "May 2024 - Present",
+      "description": "Responsible for the design, implementation and deployment of certain internal and client projects, as well as the mentoring of cadets in intership.",
+      "highlights": [
+        "Mentored and trained interns in backend development best practices, coding standards, and software engineering principles.",
+        "Developed and deployed backend systems using Django and PostgreSQL.",
+        "Collaborated with cross-functional teams to deliver high-quality software."
+      ]
+    },
+    {
+      "id": 3,
+      "role": "Backend Developer",
+      "company": "Bubo",
+      "companyLink": "https://www.bubobu.bo/",
+      "logoUrl": "https://d3v0px0pttie1i.cloudfront.net/uploads/user/avatar/40120241/04f1de9a.png",
+      "location": "Paris, Île-de-France, France",
+      "workMode": "Remote",
+      "contractType": "Full-time",
+      "period": "Jan 2024 - Jun 2025",
+      "description": "Specializing in backend development, server-side logic management and database administration to ensure smooth running of systems.",
+      "highlights": [
+        "Developed and maintained backend systems using Django, FastAPI, and PostgreSQL.",
+        "Implemented APIs and microservices for various applications.",
+        "Collaborated with cross-functional teams to deliver high-quality software."
+      ]
+    },
+    {
+      "id": 4,
+      "role": "Backend Developer",
+      "company": "Sweez",
+      "companyLink": "https://sweez.io",
+      "logoUrl": "https://sweez.io/static/media/logo192.15b24f5c.png",
+      "location": "Chaville, Île-de-France, France",
+      "workMode": "Remote",
+      "contractType": "Freelance",
+      "period": "Feb 2023 - Jan 2024",
+      "description": "Contribution to the development of certain functionalities and maintenance of the product, integrating AI functionalities.",
+      "highlights": [
+        "Contributed to the development of new features and the maintenance of existing ones.",
+        "Integrated AI functionalities into the product.",
+        "Collaborated with cross-functional teams to deliver high-quality software."
+      ]
+    }
+  ]
+}

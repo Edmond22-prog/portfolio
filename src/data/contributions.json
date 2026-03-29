@@ -1,0 +1,78 @@
+{
+  "pageTitle": "Community & Engagements",
+  "pageSubtitle": "Building, leading, and contributing to tech communities around the world.",
+  "items": [
+    {
+      "id": 1,
+      "communityName": "Black Python Devs",
+      "logoUrl": "https://blackpythondevs.com/assets/images/bpd_stacked.png",
+      "role": "Council Member",
+      "duration": "Feb 2026 - Present",
+      "description": "Recognition for my contributions to local python communities. I give my voice to decisions made regarding the support or assistance of black python communities worldwide.",
+      "link": "https://blackpythondevs.com/index.html"
+    },
+    {
+      "id": 2,
+      "communityName": "DjangoCon Africa",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1885714366026166273/UKH5cFcp_400x400.png",
+      "role": "Speaker",
+      "duration": "Aug 2025",
+      "description": "Speaker at the 2nd edition of DjangoCon Africa, in Arusha, Tanzania.",
+      "link": "https://2025.djangocon.africa/"
+    },
+    {
+      "id": 3,
+      "communityName": "Python Cameroon",
+      "logoUrl": "https://hugovk.github.io/python-logos/img/Python%20Cameroun.jpg",
+      "role": "Co-Lead",
+      "duration": "Jan 2025 - Present",
+      "description": "In charge of co-managing, organizing and sharing certain Python Cameroon events (online or in person), and helping members progress in Python programming.",
+      "link": "https://pythoncameroon.org/"
+    },
+    {
+      "id": 4,
+      "communityName": "Django Software Foundation",
+      "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfmyAFbFlRe0m0YuS1sxfoLdk9QbnCKXjrsQ&s",
+      "role": "Individual Member",
+      "duration": "Mar 2024 - Present",
+      "description": "Recognition for my contributions to the Django ecosystem in local communities. I have a voice in the appointment of the Board.",
+      "link": "https://www.djangoproject.com/foundation/"
+    },
+    {
+      "id": 5,
+      "communityName": "Google Developer Groups Yaounde",
+      "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaJ19GHczPzPitWwHdFyFPNFwAS8TDyrRCOg&s",
+      "role": "Co-Lead",
+      "duration": "Nov 2023 - Present",
+      "description": "In charge of organizing free, open events on Google technologies throughout Yaounde. These events can be talks, workshops, conferences, etc…",
+      "link": "https://gdg.community.dev/gdg-yaounde/"
+    },
+    {
+      "id": 6,
+      "communityName": "Django Cameroon",
+      "logoUrl": "https://avatars.githubusercontent.com/u/142497557?s=280&v=4",
+      "role": "Organizer",
+      "duration": "Oct 2023 - Present",
+      "description": "In charge of organizing and sharing certain Django Cameroon events (online or face-to-face), and helping members with their Django difficulties.",
+      "link": "https://www.linkedin.com/company/djangocameroon/"
+    },
+    {
+      "id": 7,
+      "communityName": "Computer Science Association",
+      "logoUrl": "https://www.comsas-uy1.com/static/images/comsas.png",
+      "role": "President",
+      "duration": "Mar 2023 - Feb 2024",
+      "description": "In charge of the management of the Computer Club of the University of Yaoundé I, organizing useful events for students, guiding them in their academic problems and offering them opportunities in academic and/or professional fields.",
+      "link": "https://www.linkedin.com/company/computer-science-association"
+    },
+    {
+      "id": 8,
+      "communityName": "Google Developer Student Clubs - University of Yaounde I",
+      "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmZUNgkihI7dYHFRkDck8EsT97Dij3anuEGA&s",
+      "role": "Lead",
+      "duration": "Aug 2021 - Jul 2022",
+      "description": "I organised events at my university on technologies to enable members to learn more about them",
+      "link": "#"
+    }
+  ]
+}

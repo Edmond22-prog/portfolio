@@ -1,0 +1,104 @@
+{
+  "pageTitle": "Articles & Talks",
+  "pageSubtitle": "My authored content, mentions, and presentations on communities events.",
+  "authored": [
+    {
+      "id": 1,
+      "title": "Create a Python package that can be installed in your various Python projects.",
+      "date": "May 29, 2025",
+      "readTime": "9 min read",
+      "excerpt": "Demonstrate how to create a Python package that can be easily installed in different Python projects.",
+      "tags": [
+        "Python",
+        "Packaging",
+        "Pypi"
+      ],
+      "link": "https://edmondmakolle.medium.com/créer-un-package-python-installable-dans-vos-différents-projets-python-1459a340e70b"
+    },
+    {
+      "id": 2,
+      "title": "Implement GraphQL APIs with Django",
+      "date": "Nov 29, 2024",
+      "readTime": "15 min read",
+      "excerpt": "Demonstrate how to implement GraphQL APIs in a Django application.",
+      "tags": [
+        "Django",
+        "Python",
+        "GraphQL",
+        "API"
+      ],
+      "link": "https://medium.com/@edmondmakolle/implémenter-des-apis-graphql-avec-django-5ce9d2103547"
+    }
+  ],
+  "mentioned": [
+    {
+      "id": 1,
+      "title": "DjangoCon Africa 2025 recap",
+      "date": "Aug 25, 2025",
+      "readTime": "Mention",
+      "excerpt": "Tim Schilling's recap of DjangoCon Africa 2025. In this recap, he talks about our meeting and his adventure in Africa.",
+      "tags": [
+        "Community"
+      ],
+      "link": "https://www.better-simple.com/django/2025/08/25/djangocon-africa-2025-recap"
+    },
+    {
+      "id": 2,
+      "title": "Remote Work and Django in Cameroon: An Interview with Edmond Makolle",
+      "date": "Aug 19, 2025",
+      "readTime": "Interview",
+      "excerpt": "Article written about me by Ngazetungue Muheue following our meeting at DjangoCon Africa 2025 in Arusha, Tanzania.",
+      "tags": [
+        "Interview",
+        "Community"
+      ],
+      "link": "https://theremoteworker.life/en/blog/remote-work-and-django-in-cameroon/"
+    },
+    {
+      "id": 3,
+      "title": "My Journey to Leadership: How I became a GDSC Lead.",
+      "date": "Aug 02, 2024",
+      "readTime": "Mention",
+      "excerpt": "Article written by Cabrel Domfang about his career as a GDSC Lead. In his article, he mentions me and talks about my contribution to his career.",
+      "tags": [
+        "Community"
+      ],
+      "link": "https://www.linkedin.com/pulse/my-journey-leadership-how-i-became-gdsc-lead-cabrel-domfang-eixxe"
+    }
+  ],
+  "presentations": [
+    {
+      "id": 1,
+      "title": "Getting Involved in Tech Communities",
+      "date": "Oct 18, 2025",
+      "readTime": "30 min talk",
+      "excerpt": "Presentation during the DevFest 2025 of GDG Yaoundé.",
+      "tags": [
+        "DevFest Yaoundé 2025"
+      ],
+      "link": "https://docs.google.com/presentation/d/1CEvzqlHh0U7sFTIrIQqEZBc6vavbfKCURMly6ztrbn0/edit?usp=sharing"
+    },
+    {
+      "id": 2,
+      "title": "Optimized Search and Flexible APIs with GraphQL and Elasticsearch",
+      "date": "Aug 13, 2025",
+      "readTime": "30 min talk",
+      "excerpt": "Presentation as part of the DjangoCon Africa 2025 in Arusha, Tanzania.",
+      "tags": [
+        "DjangoCon Africa 2025"
+      ],
+      "link": "https://docs.google.com/presentation/d/1V1CAsial34qDzjTdxzsm7yNN2uD5Jd_-3dhUQfMCeuY/edit?usp=sharing"
+    },
+    {
+      "id": 3,
+      "title": "Introduction to Generative AI",
+      "date": "Mar 23, 2024",
+      "readTime": "30 min talk",
+      "excerpt": "Presentation as part of the Build With AI 2024 of the GDG Yaoundé.",
+      "tags": [
+        "Build With AI Yaoundé 2024"
+      ],
+      "link": "https://docs.google.com/presentation/d/12x67pKPekJVV3PRPZ4aHEJZrXCU9XlZs46p0pB7hJTM/edit?usp=sharing"
+    }
+  ]
+}
