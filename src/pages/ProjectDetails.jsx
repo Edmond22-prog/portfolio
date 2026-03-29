@@ -1,6 +1,6 @@
 import React, { useMemo } from 'react';
-import { useParams, NavLink, useNavigate } from 'react-router-dom';
-import { ArrowLeft, Building2, Tag, Layers } from 'lucide-react';
+import { useParams, useNavigate } from 'react-router-dom';
+import { ArrowLeft, Building2, Tag, Layers, ExternalLink } from 'lucide-react';
 import skillsData from '../data/skills.json';
 import './ProjectDetails.css';
 
@@ -33,16 +33,30 @@ const ProjectDetails = () => {
 
         <div className="project-detail-header glass">
           <h1 className="project-detail-title">{project.title}</h1>
-          
-          <div className="project-meta-list">
-            <div className="meta-item">
-              <Building2 size={16} />
-              <span>{project.company}</span>
+
+          <div className="project-header-bottom">
+            <div className="project-meta-list">
+              <div className="meta-item">
+                <Building2 size={16} />
+                <span>{project.company}</span>
+              </div>
+              <div className="meta-item">
+                <Layers size={16} />
+                <span>{project.type}</span>
+              </div>
             </div>
-            <div className="meta-item">
-              <Layers size={16} />
-              <span>{project.type}</span>
-            </div>
+
+            {project.link && (
+              <a
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="project-link-btn"
+              >
+                <ExternalLink size={16} />
+                View Project
+              </a>
+            )}
           </div>
         </div>
 
