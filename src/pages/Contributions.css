@@ -1,0 +1,142 @@
+.contributions-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .contributions-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .contributions-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.contributions-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .contributions-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.community-card {
+  padding: 1.5rem;
+  border-radius: 1rem;
+  border: 1px solid var(--border-color);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+@media (min-width: 768px) {
+  .community-card {
+    padding: 2rem;
+  }
+}
+
+.community-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--accent-color);
+}
+
+.community-header {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.community-logo {
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--border-color);
+  flex-shrink: 0;
+  background-color: var(--bg-primary);
+}
+
+.community-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.community-titles {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.community-name {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1.2;
+}
+
+.community-role {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--accent-color);
+}
+
+.community-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+
+.meta-tag {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  background-color: var(--bg-elevated);
+  padding: 0.35rem 0.75rem;
+  border-radius: 1rem;
+  border: 1px solid var(--border-color);
+}
+
+.community-desc {
+  color: var(--text-secondary);
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  flex-grow: 1;
+}
+
+.community-footer {
+  display: flex;
+  align-items: center;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.community-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--text-secondary);
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: color 0.2s ease;
+}
+
+.community-link:hover {
+  color: var(--accent-color);
+}
+
