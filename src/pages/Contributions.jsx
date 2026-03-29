@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Users, Calendar, ExternalLink } from 'lucide-react';
 import contributionsData from '../data/contributions.json';
 import './Contributions.css';
 
 const Contributions = () => {
+  useEffect(() => { document.title = 'Community - Edmond Makolle'; }, []);
+
   return (
     <div className="page-container page-transition">
       <div className="container">

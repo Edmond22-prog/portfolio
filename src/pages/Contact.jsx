@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Mail, Github, Linkedin, MessageSquare, MapPin } from 'lucide-react';
 import contactData from '../data/contact.json';
 import configData from '../data/config.json';
 import './Contact.css';
 
 const Contact = () => {
+  useEffect(() => { document.title = 'Contact - Edmond Makolle'; }, []);
+
   return (
     <div className="page-container page-transition">
       <div className="container" style={{ maxWidth: '1000px' }}>

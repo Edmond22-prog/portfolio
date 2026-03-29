@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import { Server, Database, Cloud, Shield, Code, Settings, ArrowRight, Filter } from 'lucide-react';
 import skillsData from '../data/skills.json';
@@ -14,6 +14,8 @@ const iconMap = {
 };
 
 const Skills = () => {
+  useEffect(() => { document.title = 'Skills & Projects - Edmond Makolle'; }, []);
+
   const [selectedCompany, setSelectedCompany] = useState('All');
   const [selectedTech, setSelectedTech] = useState('All');
 

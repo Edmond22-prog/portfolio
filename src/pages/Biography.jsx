@@ -7,6 +7,8 @@ import './Biography.css';
 const Biography = () => {
   const [currentTestimonial, setCurrentTestimonial] = useState(0);
 
+  useEffect(() => { document.title = 'Edmond Makolle'; }, []);
+
   // Auto-play carousel
   useEffect(() => {
     if (!biographyData.testimonials || biographyData.testimonials.length === 0) return;

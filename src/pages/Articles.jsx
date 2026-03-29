@@ -1,9 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { FileText, Calendar, ArrowRight, Mic, Quote, Edit3 } from 'lucide-react';
 import articlesData from '../data/articles.json';
 import './Articles.css';
 
 const Articles = () => {
+  useEffect(() => { document.title = 'Articles - Edmond Makolle'; }, []);
+
   const [activeTab, setActiveTab] = useState('authored');
 
   const getItemsForTab = () => {

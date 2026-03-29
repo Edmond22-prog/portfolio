@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Briefcase, Calendar, MapPin, Globe, FileBadge, ExternalLink } from 'lucide-react';
 import experienceData from '../data/experience.json';
 import './Experience.css';
 
 const Experience = () => {
+  useEffect(() => { document.title = 'Experiences - Edmond Makolle'; }, []);
+
   return (
     <div className="page-container page-transition">
       <div className="container">
