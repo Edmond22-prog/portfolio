@@ -405,12 +405,39 @@
   gap: 1rem;
 }
 
-.author-avatar {
+.author-initials {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  border: 2px solid var(--accent-color);
-  object-fit: cover;
+  background-color: var(--accent-color);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.25rem;
+  letter-spacing: 1px;
+  transition: all 0.2s ease;
+}
+
+.author-link {
+  text-decoration: none;
+  display: flex;
+}
+
+.author-link:hover .author-initials {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(99, 102, 241, 0.3);
+}
+
+.author-link-name {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.author-link-name:hover {
+  color: var(--accent-color);
 }
 
 .author-info {

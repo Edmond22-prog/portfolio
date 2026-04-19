@@ -126,9 +126,23 @@ const Biography = () => {
                 <div key={test.id} className="testimonial-slide">
                   <p className="testimonial-text">"{test.text}"</p>
                   <div className="testimonial-author">
-                    <img src={test.avatar} alt={`${test.name} Avatar`} className="author-avatar" />
+                    {test.linkedin ? (
+                      <a href={test.linkedin} target="_blank" rel="noopener noreferrer" className="author-link" title={`${test.name}'s LinkedIn`}>
+                        <div className="author-initials">{test.initials}</div>
+                      </a>
+                    ) : (
+                      <div className="author-initials">{test.initials}</div>
+                    )}
                     <div className="author-info">
-                      <h4 className="author-name">{test.name}</h4>
+                      <h4 className="author-name">
+                        {test.linkedin ? (
+                          <a href={test.linkedin} target="_blank" rel="noopener noreferrer" className="author-link-name">
+                            {test.name}
+                          </a>
+                        ) : (
+                          test.name
+                        )}
+                      </h4>
                       <span className="author-role">{test.role}</span>
                     </div>
                   </div>
